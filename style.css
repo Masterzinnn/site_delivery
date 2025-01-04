@@ -81,4 +81,9 @@ span {
     .nav-list li {
         letter-spacing: 0px;
     }
+
+    .central2 {
+        border-bottom: 0px;
+    }
+
 }
