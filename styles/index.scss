@@ -31,19 +31,17 @@ nav {
     .nav-list{ 
         list-style: none;
         display: flex;
-    }
-    .nav-list li {
+        gap: 30px;
         letter-spacing: 3px;
-        margin-left: 40px;
     }
 }
 
-
-
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 40px;
+.menuLink a {
+    text-decoration: none;
+    color: black
 }
+
+
 .aumentar {
     font-weight: 600;
     font-size: 25px;
@@ -91,4 +89,8 @@ span {
         border-bottom: 0px;
     }
 
+}
+
+#wpp {
+    color: green;
 }
