@@ -13,16 +13,17 @@
 .logo {
   font-size: 24px;
   color: #0188F5;
+  margin-left: 10vh;
 }
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  height: 8vh;
   border-bottom: 2px solid rgba(0, 0, 0, 0.308);
+  height: 8vh;
+  
   margin: 0px 5px;
   font-weight: 500;
 }
@@ -31,6 +32,10 @@ nav .nav-list {
   display: flex;
   gap: 30px;
   letter-spacing: 3px;
+}
+
+.logolink {
+  text-decoration: none;
 }
 
 .menuLink a {
@@ -81,6 +86,9 @@ span {
   }
   .central2 {
     border-bottom: 0px;
+  }
+  .logo{
+    margin-left: 0px;
   }
 }
 #wpp {
